@@ -70,7 +70,7 @@ def extract_text(file_path):
     else:
         return ""
 
-# ✅ Named Entity Recognition (NER) for Experience, Education
+# ✅ Named Entity Recognition (NER) for Experience, Regex for Education
 def extract_resume_entities(text):
     doc = nlp(text)
 
