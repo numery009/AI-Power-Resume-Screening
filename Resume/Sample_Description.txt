@@ -1,0 +1,40 @@
+Resume 1: Software Engineer 
+Job Description:
+We are seeking a Software Engineer proficient in Python, Java, and React.js for full-stack development. Responsibilities include developing REST APIs, collaborating on cloud-based deployment using AWS or Docker, and maintaining scalable applications in a collaborative environment. Prior experience in object-oriented programming and agile teams is preferred.
+
+Resume 2: Data Scientist 
+Job Description:
+Looking for a Data Scientist with expertise in Python, NumPy, Pandas, and Scikit-learn. The candidate should be able to handle machine learning pipelines, data preprocessing, model training, and statistical analysis. Experience with large datasets, model deployment, and visualization tools is a plus.
+
+Resume 3: Cybersecurity Analyst 
+Job Description:
+We are hiring a Cybersecurity Analyst with experience in network security, firewalls, IDS/IPS systems, and vulnerability assessment tools. Responsibilities include threat detection, risk mitigation, and implementation of secure configurations. CEH or related certifications are highly desirable.
+
+Resume 4: DevOps Engineer 
+Job Description:
+Seeking a DevOps Engineer with hands-on experience in Jenkins, Docker, Kubernetes, and CI/CD pipelines. You will be responsible for managing deployment processes, automating infrastructure with Terraform or Ansible, and ensuring uptime and scalability of cloud applications.
+
+Resume 5: AI/ML Engineer 
+Job Description:
+Looking for an AI/ML Engineer skilled in TensorFlow, PyTorch, and NLP techniques. Responsibilities include developing and deploying deep learning models, preprocessing data, training models, and evaluating performance using real-world datasets. Prior experience in computer vision or NLP is advantageous.
+
+Resume 6: Web Developer 
+Job Description:
+Seeking a Front-End Web Developer with proficiency in HTML, CSS, JavaScript, React.js, and Node.js. The role involves building responsive web pages, integrating with RESTful APIs, and improving UX/UI features. Prior experience with version control (Git) and cross-browser compatibility is essential.
+
+Resume 7: Product Manager 
+Job Description:
+We’re hiring a Product Manager to lead software development initiatives, manage cross-functional teams, and drive agile product development. Candidates should be proficient in stakeholder communication, backlog prioritization, and market research. PMP or Scrum certification is a plus.
+
+Resume 8: Business Analyst 
+Job Description:
+Looking for a Business Analyst to bridge business needs and technology solutions. Ideal candidate should have experience in SQL, Tableau, Excel, and process modeling. You’ll be responsible for requirements gathering, data-driven analysis, and preparing business reports.
+
+Resume 9: Network Engineer 
+Job Description:
+We are hiring a Network Engineer with strong expertise in Cisco networks, LAN/WAN, VPN configuration, and firewall management. Candidates should have experience with tools like Wireshark and Packet Tracer. CCNA or equivalent certification is a bonus.
+
+Resume 10: Cloud Solutions Architect 
+Job Description:
+We are looking for a Cloud Solutions Architect with hands-on experience in AWS, Azure, GCP, Terraform, and cloud-native architecture. Responsibilities include designing and implementing scalable multi-cloud infrastructures, automation scripts, and leading disaster recovery strategies.
+
