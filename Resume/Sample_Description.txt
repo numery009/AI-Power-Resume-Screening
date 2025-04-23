@@ -38,3 +38,11 @@ Resume 10: Cloud Solutions Architect
 Job Description:
 We are looking for a Cloud Solutions Architect with hands-on experience in AWS, Azure, GCP, Terraform, and cloud-native architecture. Responsibilities include designing and implementing scalable multi-cloud infrastructures, automation scripts, and leading disaster recovery strategies.
 
+Resume 11: Graphic Designer
+Job Description:
+We are looking for a creative and detail-oriented Graphic Designer to join our design team. The ideal candidate should have a BFA or equivalent degree in Graphic Design, along with strong experience in Adobe Creative Suite (Photoshop, Illustrator, InDesign). Responsibilities include creating visual assets for marketing campaigns, branding materials, digital and print designs, and working closely with cross-functional teams to bring concepts to life. Proficiency in typography, layout, and visual storytelling is essential. Previous experience in agency or corporate design environments is a plus. A portfolio showcasing design work is required.
+
+Resume 11: CEO
+Job Description:
+We are looking for an experienced Chief Executive Officer (CEO) to lead overall company strategy, growth, and operations. The ideal candidate should have a proven track record of scaling technology companies, driving profitability, and leading cross-functional teams. Responsibilities include setting business vision, overseeing product development and financial performance, managing stakeholder relationships, and driving innovation across AI, SaaS, and data-driven platforms. Experience in fundraising, international expansion, and M&A is highly desirable. Strong leadership, strategic thinking, and communication skills are a must.
+

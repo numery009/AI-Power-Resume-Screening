@@ -74,33 +74,43 @@ def extract_text(file_path):
 def extract_resume_entities(text):
     doc = nlp(text)
 
-    # --- Extract Experience ---
-    experience_entities = []
+    # --- Extract Experience (Sum of all year mentions, flexible patterns) ---
+    total_years = 0
+    seen_phrases = set()
+
     for ent in doc.ents:
-        if ent.label_ in ["DATE", "QUANTITY"] and "year" in ent.text.lower():
-            experience_entities.append(ent.text.strip())
+        if ent.label_ in ["DATE", "QUANTITY"]:
+            phrase = ent.text.strip().lower()
+            if phrase not in seen_phrases:
+                seen_phrases.add(phrase)
+
+                # Match variations like "5 years", "10+ years", "over 15 years"
+                match = re.search(r"(?:over\s+|more\s+than\s+)?(\d+)\+?\s*(year|years)", phrase)
+                if match:
+                    total_years += int(match.group(1))
 
     # --- Extract Education ---
-    degree_keywords = ["bachelor", "master", "mba", "phd", "b.sc", "m.sc", "msc", "btech", "mtech", "diploma"]
+    degree_keywords = ["bachelor", "master", "mba", "phd", "b.sc", "m.sc", "msc", "btech", "mtech", "diploma", "bfa"]
     education_lines = set()
 
     for line in text.split('\n'):
         if any(kw in line.lower() for kw in degree_keywords):
             cleaned = line.strip()
-            if len(cleaned) > 5 and not re.fullmatch(r"(?i)(bachelor|master|phd|mba|b\.sc|m\.sc|msc|btech|mtech|diploma)", cleaned):
+            if len(cleaned) > 5 and not re.fullmatch(r"(?i)(bachelor|master|phd|mba|bfa|b\.sc|m\.sc|msc|btech|mtech|diploma)", cleaned):
                 education_lines.add(cleaned)
 
     # --- Backup: Regex-based degree pattern matching ---
-    regex_matches = re.findall(r"(?i)(Bachelor|Master|PhD|MBA|B\.Sc|M\.Sc|Diploma).*", text)
+    regex_matches = re.findall(r"(?i)(Bachelor|Master|PhD|MBA|BFA|B\.Sc|M\.Sc|Diploma).*", text)
     for match in regex_matches:
         line = match.strip()
-        if len(line) > 5 and not re.fullmatch(r"(?i)(bachelor|master|phd|mba|b\.sc|m\.sc|msc|btech|mtech|diploma)", line):
+        if len(line) > 5 and not re.fullmatch(r"(?i)(bachelor|master|phd|mba|bfa|b\.sc|m\.sc|msc|btech|mtech|diploma)", line):
             education_lines.add(line)
 
     return {
-        "Experience": ", ".join(set(experience_entities)) if experience_entities else "Not Found",
+        "Experience": f"{total_years} years" if total_years > 0 else "Not Found",
         "Education": "\n".join(sorted(education_lines)) if education_lines else "Not Found"
     }
+
 
 # ✅ Cache SBERT Embeddings
 @st.cache_data
