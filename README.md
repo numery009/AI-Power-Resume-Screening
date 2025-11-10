@@ -13,3 +13,5 @@ pip install pandas numpy scikit-learn xgboost spacy nltk streamlit shap pdfplumb
 streamlit run project_v6.py
 
 # For project_v7.py
+
+<img width="1669" height="968" alt="image" src="https://github.com/user-attachments/assets/84d1102f-516e-4df1-bfa2-9545a56d9490" />
