@@ -19,3 +19,15 @@ streamlit run project_v6.py
 
 <img width="834" height="485" alt="image" src="https://github.com/user-attachments/assets/40ccd7db-4e53-4b24-b4ef-8ac48a6ddd6e" />
 
+## Implementation
+This version (project_v7.py) of the AI-Powered Resume Screening System, integrating dual explainable engines — a Classical Explainable Engine (SBERT + XGBoost + SHAP) and an LLM Baseline Engine (GPT-4o / GPT-4o-mini + TF-IDF transparency).
+
+### 🔑 Key Features
+
+- **Resume Parsing** from PDF/DOCX using [`pdfplumber`](https://pypi.org/project/pdfplumber/) and [`python-docx`](https://pypi.org/project/python-docx/)
+- **Semantic Embeddings** via [`Sentence-BERT`](https://www.sbert.net/) (`all-MiniLM-L6-v2`)
+- **Explainable ML Pipeline** using [`XGBoost`](https://xgboost.readthedocs.io/) and [`SHAP`](https://shap.readthedocs.io/)
+- **LLM Integration** using `GPT-4o` / `GPT-4o-mini` for contextual matching
+- **Streamlit Dashboard** with dual-engine mode selection and interpretability layers
+- **XAI Transparency** with TF-IDF keywords + SHAP (local & global)
+- **Ethics & Governance** guidance to support human-in-the-loop decision-making
