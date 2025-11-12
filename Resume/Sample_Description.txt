@@ -46,3 +46,22 @@ Resume 11: CEO
 Job Description:
 We are looking for an experienced Chief Executive Officer (CEO) to lead overall company strategy, growth, and operations. The ideal candidate should have a proven track record of scaling technology companies, driving profitability, and leading cross-functional teams. Responsibilities include setting business vision, overseeing product development and financial performance, managing stakeholder relationships, and driving innovation across AI, SaaS, and data-driven platforms. Experience in fundraising, international expansion, and M&A is highly desirable. Strong leadership, strategic thinking, and communication skills are a must.
 
+Resume 11: CEO
+Job Description:
+We are looking for an experienced Chief Executive Officer (CEO) to lead overall company strategy, growth, and operations. The ideal candidate should have a proven track record of scaling technology companies, driving profitability, and leading cross-functional teams. Responsibilities include setting business vision, overseeing product development and financial performance, managing stakeholder relationships, and driving innovation across AI, SaaS, and data-driven platforms. Experience in fundraising, international expansion, and M&A is highly desirable. Strong leadership, strategic thinking, and communication skills are a must.
+
+Resume 13 : BlockChain
+Job Description:
+Looking for a Blockchain Engineer experienced in smart contracts, DApps, Web3 libraries, and deployment on Ethereum/Polygon. Requires Solidity or Rust, blockchain fundamentals, and hands-on use of Truffle/Hardhat. Token standard and cryptography knowledge preferred.
+
+Resume 14 : Database
+Job Description:
+We are hiring a Database Engineer with strong experience in database design, query optimization, and performance tuning. The candidate should be proficient in MySQL or PostgreSQL, understand normalization, indexing, HA/replication setups, and have experience with backup, recovery, and database monitoring. Familiarity with cloud-managed databases (AWS RDS, Azure SQL, or GCP Cloud SQL) is preferred.
+
+Resume 15 : Electrical Engineer
+Job Description:
+We are seeking an Electrical Engineer with experience in designing, testing, and maintaining electrical systems. The ideal candidate should be proficient in AutoCAD Electrical, circuit design, power systems, and electrical safety standards. Experience with PLC/SCADA systems and hands-on troubleshooting is required. Familiarity with NEC/IEEE compliance guidelines is preferred.
+
+Resume 16: Sales
+Job Description:
+We are hiring a Sales Executive with strong experience in B2B and B2C sales. The ideal candidate should be proficient in lead generation, managing customer relationships, conducting product presentations, and closing deals. The candidate must be comfortable with CRM tools such as Salesforce or HubSpot and should be able to manage and grow a sales pipeline. Strong communication, negotiation skills, and a customer-focused approach are essential. Experience in meeting and exceeding revenue targets is preferred.
