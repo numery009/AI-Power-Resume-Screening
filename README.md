@@ -46,4 +46,13 @@ cd AI-Power-Resume-Screening
 python -m venv venv
 source venv/bin/activate   # (Linux/Mac)
 venv\Scripts\activate      # (Windows)
+```
 
+### 3️⃣ Install Required Dependencies
+```bash
+pip install -r requirements.txt
+```
+If you don’t have a requirements.txt, install manually:
+```bash
+pip install streamlit numpy pandas scikit-learn xgboost shap spacy nltk pdfplumber python-docx sentence-transformers matplotlib openai
+```
