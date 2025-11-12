@@ -63,6 +63,7 @@ python -m spacy download en_core_web_sm
 ```
 
 ###  📂 Dataset Requirements
+The application expects a CSV file named:
 ```bash
 resume_dataset.csv
 ```
