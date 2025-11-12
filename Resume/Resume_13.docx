@@ -1,0 +1,16 @@
+Name Placeholder
+123 Main Street, City, State, ZIP | (000) 000-0000
+LinkedIn: linkedin.com/in/example | GitHub: github.com/example
+Blockchain Developer
+Experienced Blockchain Developer with strong background in designing decentralized architectures, smart contract development, and distributed ledger solutions. Skilled in building secure, scalable, and gas-efficient smart contracts, integrating Web3 front-ends, and implementing token standards across multiple blockchain ecosystems. Collaborative team contributor with a focus on performance, reliability, and code security.
+Technical Skills
+Solidity, Smart Contracts, Ethereum, EVM, Web3.js, Ethers.js, Hardhat, Truffle, Remix, IPFS, ERC-20 / ERC-721 / ERC-1155, Polygon, Binance Smart Chain, Layer-2 Scaling, Cryptographic Hash Functions
+Tools & Platforms
+Ganache, MetaMask, Git, Docker, Node.js, Chainlink Oracles, Alchemy, Infura, Substrate (Polkadot), AWS
+Projects
+•	DeFi Liquidity Pool Smart Contract – Designed and deployed automated liquidity pool contracts enabling token swapping with AMM logic and integrated price oracle feeds.
+•	NFT Marketplace Platform – Built a decentralized NFT marketplace with minting, metadata storage on IPFS, royalty distribution, and secure transaction flows.
+•	Cross-Chain Token Bridge Prototype – Implemented token locking and minting mechanism enabling asset transfer between Ethereum and Polygon networks.
+Education
+Bachelor of Science in Computer Science, University Name
+
