@@ -80,3 +80,9 @@ Optionally specify the model:
 ```bash
 export LLM_MODEL_NAME="gpt-4o-mini"
 ```
+
+###  🚀 Run the Application
+Classical + LLM Dashboard
+```bash
+streamlit run project_v7.py
+```
