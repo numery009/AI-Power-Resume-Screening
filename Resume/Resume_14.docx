@@ -1,0 +1,47 @@
+Name: John Doe
+Email: johndoe@email.com | Phone: (555) 123-4567
+Location: Dallas, TX
+LinkedIn: linkedin.com/in/johndoe | GitHub: github.com/johndoe
+________________________________________
+Professional Summary
+Database Engineer with over 6+ years of professional experience in designing, optimizing, and maintaining relational and NoSQL databases. Skilled in query performance tuning, data modeling, backup and recovery, high availability, ETL workflows, and database security. Demonstrated expertise in MySQL, PostgreSQL, SQL Server, and MongoDB, with hands-on experience in automation and cloud-based data storage solutions.
+________________________________________
+Technical Skills
+Category	Skills
+Databases	MySQL, PostgreSQL, Oracle, SQL Server, MongoDB
+Data Modeling	ER Diagrams, Star/Snowflake Schema, Normalization
+Tools	pgAdmin, MySQL Workbench, SSMS, DBeaver
+Cloud Platforms	AWS RDS, Azure SQL, Google Cloud SQL
+Scripting / ETL	Python, Bash, Apache Airflow, SSIS
+High Availability	Replication, Clustering, Failover, Load Balancing
+Performance	Indexing, Query Optimization, Execution Plans
+Security	RBAC, Encryption, Auditing, IAM Policies
+________________________________________
+Professional Experience
+Database Engineer — ABC Technologies, Dallas, TX
+June 2021 – Present
+•	Designed and optimized database schemas supporting enterprise applications with millions of daily transactions.
+•	Implemented query tuning strategies, resulting in 42% performance improvement on key API endpoints.
+•	Managed database backups, disaster recovery planning, and failover configurations for production environments.
+•	Automated database monitoring and reporting using Python scripts and SQL event scheduling.
+•	Migrated legacy SQL Server workloads to AWS RDS, reducing infrastructure costs by 28%.
+Database Administrator — DataSys Corp, Austin, TX
+July 2018 – May 2021
+•	Maintained operational reliability of production PostgreSQL and MongoDB clusters.
+•	Configured replication and clustering to achieve 99.95% uptime service-level guarantees.
+•	Conducted data modeling sessions with developers and analysts to refine schema design.
+•	Performed database audits and enforced encryption + role-based security policies.
+________________________________________
+Education
+Bachelor of Science in Computer Science
+University of Texas, Arlington — 2018
+________________________________________
+Certifications
+•	Microsoft Certified: Azure Database Administrator Associate
+•	AWS Certified Database – Specialty (optional)
+________________________________________
+Projects
+Customer Analytics Data Warehouse
+•	Designed a star-schema warehouse and ETL pipeline for customer metrics and segmentation.
+•	Reduced reporting latency from 12 hours → 10 minutes using optimized aggregation tables.
+
