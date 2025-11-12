@@ -56,3 +56,14 @@ If you don’t have a requirements.txt, install manually:
 ```bash
 pip install streamlit numpy pandas scikit-learn xgboost shap spacy nltk pdfplumber python-docx sentence-transformers matplotlib openai
 ```
+
+### 4️⃣ Download spaCy Language Model
+```bash
+python -m spacy download en_core_web_sm
+```
+
+###  📂 Dataset Requirements
+```bash
+resume_dataset.csv
+```
+
