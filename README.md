@@ -67,4 +67,16 @@ The application expects a CSV file named:
 ```bash
 resume_dataset.csv
 ```
+###  🔑 (Optional) Enable LLM Mode
+To activate GPT-based reasoning:
+```bash
+# Windows
+setx OPENAI_API_KEY "your_openai_api_key"
 
+# macOS/Linux
+export OPENAI_API_KEY="your_openai_api_key"
+```
+Optionally specify the model:
+```bash
+export LLM_MODEL_NAME="gpt-4o-mini"
+```
