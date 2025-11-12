@@ -40,5 +40,9 @@ This version (project_v7.py) of the AI-Powered Resume Screening System, integrat
 git clone https://github.com/numery009/AI-Power-Resume-Screening.git
 cd AI-Power-Resume-Screening
 
-
+### 2️⃣ Create a Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate   # (Linux/Mac)
+venv\Scripts\activate      # (Windows)
 
