@@ -31,3 +31,14 @@ This version (project_v7.py) of the AI-Powered Resume Screening System, integrat
 - **Streamlit Dashboard** with dual-engine mode selection and interpretability layers
 - **XAI Transparency** with TF-IDF keywords + SHAP (local & global)
 - **Ethics & Governance** guidance to support human-in-the-loop decision-making
+
+## ⚙️ Environment Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/numery009/AI-Power-Resume-Screening.git
+cd AI-Power-Resume-Screening
+
+
+
