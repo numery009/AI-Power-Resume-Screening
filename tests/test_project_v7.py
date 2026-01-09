@@ -200,6 +200,7 @@ def test_render_class_distribution(tmp_path, monkeypatch):
     module = import_project_v7(tmp_path)
     summary = pd.DataFrame({"Category": ["A", "B"], "Count": [1, 2]})
     monkeypatch.chdir(tmp_path)
+    module.plt.switch_backend("Agg")
     module.render_class_distribution(summary)
     assert (tmp_path / "class_distribution.csv").exists()
 
@@ -222,4 +223,6 @@ def test_ethics_callout(tmp_path):
 
 def test_resume_screening_dashboard_smoke(tmp_path):
     module = import_project_v7(tmp_path)
+    if not hasattr(module.st, "header"):
+        module.st.header = lambda *_args, **_kwargs: None
     module.resume_screening_dashboard()
