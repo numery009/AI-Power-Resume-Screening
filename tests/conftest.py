@@ -44,6 +44,12 @@ class DummySidebar:
 
 
 class DummyColumn:
+    def __enter__(self):
+        return self
+
+    def __exit__(self, exc_type, exc, tb):
+        return False
+
     def metric(self, *_args, **_kwargs):
         return None
 
