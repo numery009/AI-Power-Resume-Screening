@@ -50,6 +50,11 @@ class DummyColumn:
     def __exit__(self, exc_type, exc, tb):
         return False
 
+    def __getattr__(self, _name):
+        def _noop(*_args, **_kwargs):
+            return None
+        return _noop
+
     def metric(self, *_args, **_kwargs):
         return None
 
