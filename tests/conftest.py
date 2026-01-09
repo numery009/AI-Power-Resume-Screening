@@ -50,6 +50,11 @@ class DummyColumn:
     def __exit__(self, exc_type, exc, tb):
         return False
 
+    def __getattr__(self, _name):
+        def _noop(*_args, **_kwargs):
+            return None
+        return _noop
+
     def metric(self, *_args, **_kwargs):
         return None
 
@@ -65,6 +70,11 @@ class DummyStreamlit(types.ModuleType):
         self.cache_data = DummyCache()
         self.cache_resource = DummyCache()
         self.sidebar = DummySidebar()
+
+    def __getattr__(self, _name):
+        def _noop(*_args, **_kwargs):
+            return None
+        return _noop
 
     def title(self, *_args, **_kwargs):
         return None
