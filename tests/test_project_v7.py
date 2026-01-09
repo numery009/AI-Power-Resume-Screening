@@ -33,7 +33,11 @@ def test_load_dataset(tmp_path, monkeypatch):
     dataset_path = tmp_path / "resume_dataset.csv"
     data.to_csv(dataset_path, index=False)
     original_read_csv = pd.read_csv
-    monkeypatch.setattr(module.pd, "read_csv", lambda _path: original_read_csv(dataset_path))
+    monkeypatch.setattr(
+        module.pd,
+        "read_csv",
+        lambda _path, _orig=original_read_csv: _orig(dataset_path),
+    )
     df, X, y_encoded, y_raw, encoder = module.load_dataset()
     assert list(X) == ["a", "b"]
     assert list(y_raw) == ["X", "Y"]
@@ -84,10 +88,10 @@ def test_get_cached_embeddings(tmp_path):
 def test_train_xgb_model(tmp_path, monkeypatch):
     module = import_project_v7(tmp_path)
     df = pd.DataFrame({
-        "Resume": [f"resume {i}" for i in range(10)],
-        "Category": ["X", "Y"] * 5,
+        "Resume": [f"resume {i}" for i in range(20)],
+        "Category": ["X", "Y"] * 10,
     })
-    y_encoded = np.array([0, 1] * 5)
+    y_encoded = np.array([0, 1] * 10)
     monkeypatch.setattr(
         module,
         "load_dataset",
@@ -196,6 +200,7 @@ def test_render_class_distribution(tmp_path, monkeypatch):
     module = import_project_v7(tmp_path)
     summary = pd.DataFrame({"Category": ["A", "B"], "Count": [1, 2]})
     monkeypatch.chdir(tmp_path)
+    module.plt.switch_backend("Agg")
     module.render_class_distribution(summary)
     assert (tmp_path / "class_distribution.csv").exists()
 
@@ -218,4 +223,6 @@ def test_ethics_callout(tmp_path):
 
 def test_resume_screening_dashboard_smoke(tmp_path):
     module = import_project_v7(tmp_path)
+    if not hasattr(module.st, "header"):
+        module.st.header = lambda *_args, **_kwargs: None
     module.resume_screening_dashboard()
