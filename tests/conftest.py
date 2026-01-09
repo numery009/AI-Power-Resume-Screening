@@ -71,6 +71,11 @@ class DummyStreamlit(types.ModuleType):
         self.cache_resource = DummyCache()
         self.sidebar = DummySidebar()
 
+    def __getattr__(self, _name):
+        def _noop(*_args, **_kwargs):
+            return None
+        return _noop
+
     def title(self, *_args, **_kwargs):
         return None
 
