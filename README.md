@@ -1,3 +1,22 @@
+## 📄 Related Publication
+
+**AI-Powered Resume Screening**  
+Numery Zaber, Sang C. Suh  
+*Journal of Universal Computer Science (JUCS)* — **Accepted, 2026**
+
+This repository accompanies the peer-reviewed research paper that presents
+a dual-engine AI-based resume screening system integrating **SBERT**, **XGBoost**,
+and **SHAP**, with an optional LLM-based reasoning layer for comparative analysis.
+
+**Abstract (short):**  
+The study proposes an explainable and scalable resume screening framework
+evaluated on 962 resumes across 25 job categories, demonstrating improved
+classification accuracy, transparency, and fairness over traditional approaches.
+
+📌 **Publication link:** Coming soon  
+📌 **DOI:** To be assigned  
+📌 **Status:** Accepted (final publication pending)
+
 
 # For project_v6.py
 
