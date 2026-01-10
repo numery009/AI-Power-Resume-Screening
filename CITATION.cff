@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "AI-Powered Resume Screening"
+authors:
+  - family-names: Zaber
+    given-names: Numery
+  - family-names: Suh
+    given-names: Sang C.
+journal: "Journal of Universal Computer Science"
+status: "Accepted"
+year: 2026
+message: "If you use this work, please cite the associated journal article."
